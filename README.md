@@ -226,7 +226,7 @@ previously. You then `mv`'d it. From `git`'s perspective you deleted
 `new-feature-file` and added `new-feature` but `git` doesn't know if your
 intent was to add another similarly named file and delete a file **OR** to
 rename a file.  To tell `git` that your want to bring changes in for `-a`ll
-currently tracked files, effectivecly to perform a rename, we add `-a`.
+currently tracked files, effectively to perform a rename, we add `-a`.
 
 Let's look at our timeline now.
 
